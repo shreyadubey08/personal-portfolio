@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    
+}
+body{
+    background-color: rgb(134, 131, 131);
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.nav{
+    display: flex;
+    background-color:rgb(0, 0, 0);
+    height: 10vh;
+    width: 100%;
+    padding:0,3vw;
+    
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.email{
+  
+    margin-left: 20px;
+}
+
+.email a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.2vw;
+   
+
+    
+}
+.email a:hover{ 
+    color: rgb(135, 130, 135) ;
+
+}
+
+.nav ul{
+    display: flex;
+    background-color:rgb(0, 0, 0);
+    list-style: none;
+    gap:4vw;
+    margin-right: 3vw;
+    font-size: 1.2vw;
+    
+
+    
+}
+.nav li a:hover{
+    color: rgb(135, 130, 135) ;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+
+}
+@media (max-width:600px){
+    .email{
+        font-size: 6vw;
+    }
+    .socials{
+        font-size: 6vw;
+    }
+    
+}
+
+.aboutme img{
+    height: 200px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 100px;
+    margin-top: 100px;
+    
+    
+}
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+}
+.intro{
+    
+    text-align: center;
+}
+.heading{
+    text-align: center;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+
+}
+.clone img{
+    height: 500px;
+    margin-top: 100px;
+    border-radius: 25px;
+}
+.gymsite img{
+    height: 500px;
+    margin-top: 100px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+h1{
+    color: black;
+}
+footer{
+    background-color:#0f1111;
+    text-align: center;
+    height: 100px;
+    padding-top: 50px;
+}
